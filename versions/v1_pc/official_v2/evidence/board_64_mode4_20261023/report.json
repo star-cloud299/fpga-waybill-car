@@ -1,0 +1,12 @@
+{
+  "sequence": 104,
+  "mode": 4,
+  "status": 0,
+  "width": 50,
+  "height": 50,
+  "offset_x": 7,
+  "offset_y": 7,
+  "processing_cycles": 8192,
+  "received_pixels": 2500,
+  "mismatches": 0
+}
