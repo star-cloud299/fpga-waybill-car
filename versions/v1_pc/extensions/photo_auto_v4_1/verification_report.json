@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "real_board_tested": false,
+  "gui_display_tested": false,
+  "blank_rejected": true,
+  "wrong_expected_text_rejected": true,
+  "photo_results": [
+    {
+      "photo": "08.jpg",
+      "roi": [
+        410,
+        550,
+        1560,
+        772
+      ],
+      "geometry": {
+        "source_size": [
+          2048,
+          1212
+        ],
+        "roi_box": [
+          410,
+          550,
+          1560,
+          772
+        ],
+        "canvas_size": [
+          192,
+          96
+        ],
+        "resized_size": [
+          178,
+          34
+        ],
+        "paste_xy": [
+          7,
+          31
+        ],
+        "guard_pixels": 7,
+        "resampling": "LANCZOS"
+      },
+      "results": [
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "photo": "07.jpg",
+      "roi": [
+        258,
+        344,
+        1135,
+        633
+      ],
+      "geometry": {
+        "source_size": [
+          1506,
+          960
+        ],
+        "roi_box": [
+          258,
+          344,
+          1135,
+          633
+        ],
+        "canvas_size": [
+          192,
+          96
+        ],
+        "resized_size": [
+          178,
+          59
+        ],
+        "paste_xy": [
+          7,
+          18
+        ],
+        "guard_pixels": 7,
+        "resampling": "LANCZOS"
+      },
+      "results": [
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "photo": "04.jpg",
+      "roi": [
+        280,
+        390,
+        1130,
+        550
+      ],
+      "geometry": {
+        "source_size": [
+          1488,
+          960
+        ],
+        "roi_box": [
+          280,
+          390,
+          1130,
+          550
+        ],
+        "canvas_size": [
+          192,
+          96
+        ],
+        "resized_size": [
+          178,
+          34
+        ],
+        "paste_xy": [
+          7,
+          31
+        ],
+        "guard_pixels": 7,
+        "resampling": "LANCZOS"
+      },
+      "results": [
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        },
+        {
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000003"
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ]
+}

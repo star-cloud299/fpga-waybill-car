@@ -1,0 +1,19 @@
+{
+  "apply_fix.bat": "433096ed446cba73eac10e27b4f73496431ea72ea422e2a5768d47c0955a3127",
+  "apply_fix.py": "d6777eab5b5fa15686efac6b27d8d1b45476e5788af99bfa1491acb9cfd718af",
+  "patch_manifest.json": "23d56dba3141d7e35050362ea6e377eac7861c6fe3ec3db0c44f81be7e3e04c6",
+  "payload/auto_roi.py": "1ba811fa1b30c34d761213072be69823c2eba96f0c493329e23e90bdde9481b3",
+  "payload/gui.py": "82b760f380bf33658844479b85ccfc05b94aceb98af8ebdfd6483edcd2525d7d",
+  "payload/gui_status.py": "b923fb05256d78c514b24e4eecfd532bad80c1a40e7333b3c41a74212da2b9c6",
+  "payload/roi_controls.py": "4c85d8996e69805e38bc6321b968afa583badace8af9830b3b96a75581128213",
+  "test_photos/04.jpg": "26b07e431fbf468dd1e3b95bacf6aaadd15bb5bbd98dcc8f65d205123cd2b995",
+  "test_photos/07.jpg": "a487c3851b84044f21b96fdaf19106bb822e8e4259dfc4a4258b1cbb6c0f7611",
+  "test_photos/08.jpg": "79f10f3ade859706c5d2d9269be7c7fc574038d210fcb4e46b872923caea2aa2",
+  "test_photos/说明.txt": "8612dc4bb78ac8ee29ef126333fcc30d86de6af6756dce11b6537e121a69777f",
+  "verification_report.json": "3dd0c1355d545b593fbb8e241c030f58fdeabd399531eba4d8ae27f6d6178ab2",
+  "verify_auto.py": "8a94aa5d09c01f6186ccc8b876b5907f738f15f980abefcda8f8513813c8cd39",
+  "verify_gui_worker.py": "c7f2d141b6d29717922923eef2813288c96f5f03faea13c7d586d86739c2e35e",
+  "worker_verification.json": "67e757a1099edadfa37b10c969ec6ea501ec66e60b242743a0b30d7f988c6c95",
+  "使用说明.md": "96393a3e8d3233a50ed2b6bd29db6eb0651f9edb5d0709046f11b9bb0b8c71c6",
+  "测试结果.md": "3370cb38a21f9cdb03607d3470130f75eb2047a879d32ed4b9c384efec820f5f"
+}

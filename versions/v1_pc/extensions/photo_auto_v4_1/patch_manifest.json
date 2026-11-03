@@ -1,0 +1,16 @@
+{
+  "schema": "experimental-photo-auto-roi-v4.1",
+  "base_gui_sha256": "b88b35a4a504622d40f4e9c148bb28f5ca6aa2692ccd7b09425abd0f974e2e33",
+  "accepted_gui_sha256": [
+    "b88b35a4a504622d40f4e9c148bb28f5ca6aa2692ccd7b09425abd0f974e2e33",
+    "0e58dbd50495155605879d7ca9842e619beffe2cf8cbdaf2d7041f76f130e8ec",
+    "3f693f60130f5797ab93718cabbb17b1771c40440234ff7138b6c63166e04b52",
+    "82b760f380bf33658844479b85ccfc05b94aceb98af8ebdfd6483edcd2525d7d"
+  ],
+  "payload_sha256": {
+    "auto_roi.py": "1ba811fa1b30c34d761213072be69823c2eba96f0c493329e23e90bdde9481b3",
+    "gui.py": "82b760f380bf33658844479b85ccfc05b94aceb98af8ebdfd6483edcd2525d7d",
+    "gui_status.py": "b923fb05256d78c514b24e4eecfd532bad80c1a40e7333b3c41a74212da2b9c6",
+    "roi_controls.py": "4c85d8996e69805e38bc6321b968afa583badace8af9830b3b96a75581128213"
+  }
+}

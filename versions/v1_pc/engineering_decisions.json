@@ -1,0 +1,25 @@
+{
+  "source": "This conversation, 2026-10-25",
+  "user_request": "根据我们最开始的具体方案计划以及评分要求先把基础部分设计完善可以后期添加创新点（除了报告、PPT和演示之外）",
+  "actual_decisions": [
+    "基础模式1-4与扩展界面分开入口",
+    "保留冻结源文件和原bit",
+    "增加真实可执行的检查/复核/100帧入口",
+    "新增朴素窗口结构用于受控OOC比较",
+    "拒绝将未运行Vivado的资源收益填成已验证",
+    "新增GUI结果CSV"
+  ],
+  "files": {
+    "tools/foundation.py": "3b0d13b3491a50bbe5908045fc880f113d58869cd3274a2e73ef96c55334e1ac",
+    "benchmark/window_stats_naive.sv": "25a7d457f6e42aa2942677f2e8ed71ff311ad7395035b1e6601cffc2e5cc8f59",
+    "benchmark/tb_compare.sv": "d7a4e8846756c22273c74683b86cded9f1d74e96dbe79107ef5e144677bd8ebe",
+    "benchmark/compare.tcl": "5444e3543ef7cf572fe6185669d130195c47846e0f01af993b664c3394a98e45",
+    "host/gui.py": "cbd37288192650571d9a061d450797a8cf0c427038db495762ac412d4c61834b",
+    "host/auto_roi.py": "63f7a7dafff843b0af5c76159edcbe52c84a52096fabee6c42df78cb4fc5f833",
+    "tests/test_foundation.py": "f6a22319b6b2fe40b4a2e197ccbdbddd39ac265fa11f07b93acbcbc0dbf6077b"
+  },
+  "new_vivado_run": false,
+  "new_board_run": false,
+  "historical_prompt_log_reconstructed": false,
+  "note": "真实本轮工程决策记录；不是伪造历史提示词，也不证明LLM评分已全部满足。"
+}

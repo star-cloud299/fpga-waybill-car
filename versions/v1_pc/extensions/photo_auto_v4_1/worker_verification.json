@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "port_open_failure": true,
+    "receive_timeout": true,
+    "reference_success": true,
+    "auto_reference_worker": true,
+    "automatic_relocation": true,
+    "single_common_roi": true,
+    "no_fake_board_evidence": true,
+    "genuine_empty_expected_label": true,
+    "provided_label_with_no_result": true,
+    "error_priority": true
+  },
+  "real_serial_tested": false,
+  "gui_display_tested": false,
+  "algorithm_changed": false,
+  "frozen_parameters_changed": false
+}
