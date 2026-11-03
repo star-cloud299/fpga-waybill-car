@@ -1,0 +1,428 @@
+{
+  "schema": "single-pc-dataset-v3",
+  "samples": 30,
+  "split_counts": {
+    "tuning": 12,
+    "test": 18
+  },
+  "scene_counts": {
+    "normal": 5,
+    "shadow": 6,
+    "lowlight": 5,
+    "glare": 5,
+    "gradient": 5,
+    "noise": 4
+  },
+  "manifest_sha256": "82f76e2fb9aa0aaaf7677e200e9083ee759c44616ee71f06deea69ef55e1f72f",
+  "file_sha256": {
+    "manifest.csv": "82f76e2fb9aa0aaaf7677e200e9083ee759c44616ee71f06deea69ef55e1f72f",
+    "roi/shadow_05.png": "519766db39bbcde36f7b5a0a9fc397112aeaa482a957ba1fa89ef6f74a058be8",
+    "roi/gradient_03.png": "08d254818b1bd281fa917a8faf3316a54e3726d4981ee9bd3b2f695a5013787a",
+    "roi/glare_04.png": "8a6de50cce04990bf382636c79b48bfa952ef47b7ba09c2003c28d7144661ec0",
+    "roi/lowlight_05.png": "6362a9e36820c1e94a70ce9e70f35083b70dda9d9a367e920931e56e7205ab99",
+    "roi/gradient_05.png": "3761d47628feb310bb9bf0949a0c01cda2e47ddbd7dab072c2aa861fbe01fda7",
+    "roi/normal_04.png": "04c1a20f3e0d36a9ae62151ea2ba2146e9c7f2a65dc04e59ad40361397efee56",
+    "roi/noise_03.png": "1401a1b10c57c3bda71df0039421e925d92990974933e7f957d240f1db28eaf8",
+    "roi/normal_01.png": "abf9be3eb84d4cc0c9612a526f1f35bb2099cddb6f8c82d358f849ba88b784de",
+    "roi/glare_01.png": "18fb22167361e0ae9edaba9e001d51f9e0a4c86b62aabb7c2ad0094369e72b41",
+    "roi/lowlight_04.png": "2774da716f6720dae45bcedca2fb217000d549ed6bc2a0b09ad8b580b325fd4b",
+    "roi/glare_02.png": "a9d7a2a10b44ca34d2d716f93276c676e1340ad208a9cc563be222081c8ea5f3",
+    "roi/glare_03.png": "de157e23236a9e03cd854a0e199fbab71c177a070e2258468b5f939171e04563",
+    "roi/shadow_01.png": "6e6983d36f4560aa4d5a6f9778785711e87df6403337a54d847b82330dad0e4b",
+    "roi/normal_05.png": "2e2a9ea47e9012764fb5bf3292b03d0e54a5ca90ccb5841779477a82e43a9bd1",
+    "roi/gradient_01.png": "584681b21e1bdc237df05d131ff3f9a79aa7b294acaa6f1892cdd47b639cbbf4",
+    "roi/noise_01.png": "4962c96a2c5991a860676846fa9e3ee404c8580eb466542f638f440f8abb0c99",
+    "roi/shadow_03.png": "ecd5ba5cad63e462300fb2415b951490dbceda570c27fe7f78f5d49a9d8c21ea",
+    "roi/normal_02.png": "debc7a7f46533d8f32d7053b52e0e0cc7e7470a5e69cc40fa02bdc50c4d005e7",
+    "roi/glare_05.png": "c1dc7fa5d875e45d81571bd37ecaaea9f7c9dd821ebe9d2435edfc41b4a89870",
+    "roi/shadow_06.png": "ef3992972fbf21df7692f424523eddc9d3725036df5891cd66ce4abec2c2fe4a",
+    "roi/gradient_02.png": "1e7e3586721d97d850aec9b3c0d3ea1102ab56f7591c2694e6752fcf816c752e",
+    "roi/lowlight_01.png": "64f47689bdce13a6f63b2e66ec9a1a017ef808a13d74f03d52da3633fa526e60",
+    "roi/lowlight_03.png": "d41154e18a972fbaf85a211dafb56bf540f3df0e37f1a78c145ef7f9d3d24b91",
+    "roi/noise_02.png": "c6a61c6f9df889d1661c41db8471e75ed084cdd48c4eaacd158d443a87982d51",
+    "roi/shadow_04.png": "972c224f16cd30e44ed76cc4e3edc6d4f6db805b58991bb35064091227c2e484",
+    "roi/normal_03.png": "4d62eb93f9aa828f80a52bee71e8e87e9a8531f1d61077d29ead054e341caa21",
+    "roi/noise_04.png": "b1961ecc624b122271b12c719c709a1a53d26ae33e7c4e0d94ab13e4a2267612",
+    "roi/lowlight_02.png": "156cc586a4683dd64ac980892f293dc5873082faf9da2b58e9f99f8b77400fed",
+    "roi/shadow_02.png": "dc834d86215eef853ec1fe839db3a6cd1be0159a89823b4661f052bd6682d941",
+    "roi/gradient_04.png": "055dcf0b5f5ca2b74693284c476e79ff3f55af147c919ccab3e0c88060b289f4",
+    "rgb565/shadow_04.bin": "4a5adc10b9acf244742ce65f9607a0f6c9bb99f6d59486c7f03adb2e070bb51c",
+    "rgb565/noise_01.bin": "90152b31abe923b985e9f392d7a7a580e2a952bce50e2038809a0ff879b02161",
+    "rgb565/shadow_06.bin": "97fe2f9bcadd8b3cdd15a4dcaa63bfccfaad05792012887e6a7108d9097cde76",
+    "rgb565/glare_01.bin": "12788d10299e518ae08790d454f2b4463cf99c80a881f0f00a1e79bcbc72d9e6",
+    "rgb565/normal_02.bin": "926ce5618d67b02aaf186bf591cdbef966572897823315d9b0a0960730735058",
+    "rgb565/noise_02.bin": "9d8fbf0357e54798523acb2d32bdec64a17002f730ae1a52cca57399bf85b7ad",
+    "rgb565/lowlight_01.bin": "32e02669d4f786556704df6f6dadd0d4ced22ca1eda369361121b2264d0fb5d6",
+    "rgb565/gradient_04.bin": "314f61cda4942c86642844be168a6e5ad27ea2c220edb309537b4b45d813c973",
+    "rgb565/gradient_02.bin": "12f7399f6340286bdf1f173248543322b1628b9b7cee7953fc6fcad1b6ecb4af",
+    "rgb565/lowlight_03.bin": "e24bfe850df34ab754f020fa82b86efefb3a390d210513325f3fcdb7f221f3e8",
+    "rgb565/glare_02.bin": "274fe8b6b73ea711a66674a2e65c33b0fa40832394943129487c41faff88f98d",
+    "rgb565/glare_04.bin": "8333ffbd3a3242289cf8076b0b0b449d4a242946ce7fd7768933cc932b6c6551",
+    "rgb565/lowlight_02.bin": "8df36f51c5f4f8d311ad50081abf732b975573cb449475504967a0333261c22d",
+    "rgb565/lowlight_05.bin": "dcf459d4759bb3b79125dad86ba4266110168579814b011e045fef3dff641264",
+    "rgb565/gradient_01.bin": "498e65408ea5c9cc498e70d1ac572061081259b4761c477ff876fa6652cb8305",
+    "rgb565/gradient_03.bin": "c11b203a028402d6cd3c542997326b835ea772083d46c3f662e4a927fcd2bf35",
+    "rgb565/lowlight_04.bin": "7f7a947552c7f0fd0300f6419df1a80e7ed1b1c4f3af32392e3913eddcebae19",
+    "rgb565/glare_03.bin": "fb725a57e121729e4af5edddaf1d05e25033ffa97a59c37b800f78da8ca6d7a3",
+    "rgb565/gradient_05.bin": "89a9ddaa23e506394e33cf4ab8a0a97f9485f2115f71c0bed9f18b1ce44fecbd",
+    "rgb565/shadow_01.bin": "6fe6464a14698a203a0619a09e5a2a5cf6350d49c059af1645ef4e7cd4cda383",
+    "rgb565/noise_04.bin": "bf1fa18641ffce32627aa69f6842d990e856e8d71fd9c2111332d02c9ce7a815",
+    "rgb565/normal_04.bin": "6aac21cc2c85df654e71046ac0379786da2f368dbbfdeb1611272d179ee56e39",
+    "rgb565/shadow_05.bin": "ec1439a67ab53ace5649df1eef440d2b13a542c991774fbf90fc3a121a4d739e",
+    "rgb565/noise_03.bin": "3f628136814d744195531a3b123ab4c2e7045c349e210a5dcf3d3560193dba22",
+    "rgb565/shadow_03.bin": "92af4fe410db0610623baba0084423af99e4633362618870838d726ba61e0296",
+    "rgb565/normal_03.bin": "090af2238ed6e2bbdc168f3d65212a4542cfcc92e62627e085a85514c734b145",
+    "rgb565/normal_05.bin": "4781186fafc956aae6f3de5a5f9eb0b42e9e5276404e9276cc90468413273495",
+    "rgb565/shadow_02.bin": "2a3ee3f61f477f8896008b357bc92ecc02e9d944f579e7666c918da28eccb73c",
+    "rgb565/normal_01.bin": "64cec076d68b398616772a8bc86ed44bdb392f51393f6b0a84fab06ee0f3532a",
+    "rgb565/glare_05.bin": "28a6971228cc4f564d00963154199157888c2b3bf0d8ad8cc62b49115071fb79",
+    "source/shadow_05.png": "32edd30d47c0a03a43120c80534902f60d26f0b402a8afffd78ac15cceb47e9b",
+    "source/gradient_03.png": "3b8f1c5e5745e5f9b8efd4b9d39321b848dd2b64bccd3442ac0bb02a8f168530",
+    "source/glare_04.png": "4de0aff80fd438a0f5f13de7b39c3ff583ca32c62aeb731d275228c605b7d760",
+    "source/lowlight_05.png": "49d86cc2136ff275543c771353e2ae3f8928da842c345ce19cf230fee8059473",
+    "source/gradient_05.png": "b3cfc8838f59e1c167c8948484bf67225aaad10a1a9cc85b88352bb6bcc90170",
+    "source/normal_04.png": "a6881511179c6c05ce149e8126d42a5ec900c113dc61a5714eb627c04d5d159a",
+    "source/noise_03.png": "dda4af07e839d8c25d543dc76c2f0a4ad019791e3b7588cbffd9f0119ed05e82",
+    "source/normal_01.png": "6895c5996c6793182c625bd0ae2604eef3e71f965857038c85e05e2d566f86db",
+    "source/glare_01.png": "5ce6347c2e884edc08c35c7c0d53add0e62fdfb348bf947ead7ad5889a58b315",
+    "source/lowlight_04.png": "1b3e6fba4bfc7276a6ebd9806c04777ce7b0fb823bdc87f76a23c8c9c1580d70",
+    "source/glare_02.png": "7c8bf553b1b21a1643f98cb311587ebc05d4547dce448b03e93e57fa0d3509d8",
+    "source/glare_03.png": "98fd9fe75b78b35fa6472a41d90104da9d7eb8a010d68396481049203fbe31d1",
+    "source/shadow_01.png": "4665f9eb4e864b23cbc5071e70a299426b81f748d23b664429b806f012a5e2f7",
+    "source/normal_05.png": "697deb76fa69295bee27765a77ee713dc106ff02d7bdddd0608f17a8c7543f52",
+    "source/gradient_01.png": "a13e1a16f48cf2fc62d1b181dc1405b2645dadd8d6925888a7d7f15363e9f49b",
+    "source/noise_01.png": "e03210c5d4375758d8aad8fd3912f297e811d1aca7f500be0fdb60aca90b5cf1",
+    "source/shadow_03.png": "ba7d52b7d0a869c83a317a953f7001007acb779b48ee2c6e2538a78d988a6f70",
+    "source/normal_02.png": "7e8c78d903a9a5497afc43ae22617b3202f7b77c3a646af1d57aa46550dcec92",
+    "source/glare_05.png": "92f48f0f1dc64e380aa0d7fdeda06219fcc6b0f597e5da15cca96dabe59f1f07",
+    "source/shadow_06.png": "0cd02c2db23192f37cb2d117c7033a3ec9ac30d6080807271719b8121be3473a",
+    "source/gradient_02.png": "820351fa1e56a939958a15f14a4b5044716478f1bfcc49a30c1757ac11c334ed",
+    "source/lowlight_01.png": "5548b21188f13a16bf7aa93e1478201182b1ee3740cc61efca03926c12037045",
+    "source/lowlight_03.png": "cc758698c2e14caeeb736cfee6833383159cc1373772f73f60ba61144621b6f0",
+    "source/noise_02.png": "10cefe9d6c43a924f75017f3e983423d7dc52ae1b1717393a922989ca5ff6ae5",
+    "source/shadow_04.png": "962afa0e2c4787d99b30ddaa0a9ca22c5a1d1e3ab851a07f3cd04d12f5b5b0da",
+    "source/normal_03.png": "9840a6643c591920d990faa1b401337e6e499753bc6e4391450a6f8242d488a7",
+    "source/noise_04.png": "598537a8808c65b5b6f382ee239fe568cc17b58c3469df420ee7eda2c84d9d4e",
+    "source/lowlight_02.png": "c2004e63c6d048c1e26cc8ddc2c0de4b1a0359be85a90cb9ff597399284eaa91",
+    "source/shadow_02.png": "8b6857e12d2acb8f44ec9902a9d6ab9134fa158c0ad11fa849738e08a146988e",
+    "source/gradient_04.png": "5cb0edec56dee2778b8b4a6a2df518a863143beddf297f973cf7b24ab04c8a49",
+    "truth/shadow_05.png": "cb1db49ccdde37f833b933aa515595057fc4ce298e8a0ec1b94a88704ea5f946",
+    "truth/gradient_03.png": "9f2b75f3d7231caeea28a5ae01199affcd83c2b23cb4d7ac56c7f10e9036e121",
+    "truth/glare_04.png": "6350dd0979f9d198dcecbbb04ebc9ba948a0fb6fbf32a8819b240bff62805b14",
+    "truth/lowlight_05.png": "50340de3f6b9658178d3044bd37f7ed84985a0626c473fe1da7c0e1561347b6f",
+    "truth/gradient_05.png": "7f5c283159086206ca361b9cbc27e30c2f3b67a1bb12dc7a9250db73a12db653",
+    "truth/normal_04.png": "99dfa27e16aed3419d626b798cbb9461ef391dfcffd03d6179da0937c708c11e",
+    "truth/noise_03.png": "b399bb601198d7ed3c669304581d13310013c43dba99471bbb4fb6d2d1a4952e",
+    "truth/normal_01.png": "be7cad8d49fb7c0dc4d97cd29063e8a049f3108d411f1e34781be92e27c008f0",
+    "truth/glare_01.png": "0dedc1b5fba58b096d01a111843fca648f9ee6553d662c5bac090b6d987534b8",
+    "truth/lowlight_04.png": "0e1761c952f64827ac2644f8b2b35d88889c2ab68128109b32f49a2389e568ea",
+    "truth/glare_02.png": "51807d9eaee74d2a38a0e149fa74fe38aa62c9cc21549fb2eb7a6d7916e3e969",
+    "truth/glare_03.png": "67b6f7457152754ecd23100ca42cff562aff21066139efd3bf30700066b3fd87",
+    "truth/shadow_01.png": "53c297146ced3c2ec650f68e12d4150d13290a440332dcef86f20d937cde1840",
+    "truth/normal_05.png": "e25e4c318241fd48a9c4eb1aa9ef48f3a06df6dd7b453b2d3e43349d72dd5c16",
+    "truth/gradient_01.png": "c68ad6e8ad84c8c6bfe74c91eedf6711ebf8c9cb05ac3db7e04a24b6979f5f9f",
+    "truth/noise_01.png": "c3d334d20920fa1661d4e7be7678e21c1363cd2817705836ae02813d8626d6b7",
+    "truth/shadow_03.png": "2241e191477f1db79e0a66abd30c9454928c79f6719cc09b6458c6540a62f3fd",
+    "truth/normal_02.png": "d36f1daf2f5d0aea77364c45c93a23a2523f184751823bdee423740592d5fce3",
+    "truth/glare_05.png": "5c5d83f0c1bad7fbb6cf6dfb352c5956dd603b18217c32ae396f6e49b6944a9a",
+    "truth/shadow_06.png": "af4e9d2f13a5b4acb65787809bd19e810f77b17e67c2b8483bdf24666dcc2a27",
+    "truth/gradient_02.png": "a15e79eac06910bc37f7f7cc1f0c84c368ee2ea210480c2c89422f29d3bb0dcb",
+    "truth/lowlight_01.png": "b7eb6f2d07fa038f189295331c92bc97a2a47f3651db390902ff715f470067da",
+    "truth/lowlight_03.png": "c3a45e74dab55a7bde5f04fb248607bb71c5bb19ea923c0533e8790be1b97002",
+    "truth/noise_02.png": "fab5bad21cc98bbd8c651bfc14069b9cbde534b4dc0810258118b6c7a5683843",
+    "truth/shadow_04.png": "be6b4f699e9839acd6705cf849c7831eed79d5dcf467dd013c5dd26c9f2b274e",
+    "truth/normal_03.png": "1daa71a7bfdf92ba8468726fbf1638f51a42eda2c2e29e48960203803d30984b",
+    "truth/noise_04.png": "52ab67ee51165aec92e9415612dc8bb0ad8a927bfe5fc7feb4e04ece9691488c",
+    "truth/lowlight_02.png": "c5e2d342dfefae1c4e3ecf1f7f026cad0df65330983e446edb9dd4b774692429",
+    "truth/shadow_02.png": "f87509b644bfbe68e6387192033485cde6e7cc32465b60e2cf217bdae4a1d6ec",
+    "truth/gradient_04.png": "c40e8c193c8402c374ab6f5c13f579923055538d2c0754259b50d00aa56f68fd",
+    "clean/shadow_05.png": "cc35bb0a69560e18a296a97ab1dd308b968499a65cf4af532b9fa871b41bd24f",
+    "clean/gradient_03.png": "a2b88a42fd61e7a63570744f1c7bc4409b60f8c337b032efcea1b85d769cf8db",
+    "clean/glare_04.png": "884e184382a56e4e13615ba3aa81c9a149ff5652d574aed89bfcdb563d733b24",
+    "clean/lowlight_05.png": "6c96d91de4fe38fe0ed2af33a62fade43ed38f8955c71177fc787bf75e834824",
+    "clean/gradient_05.png": "ed7882a546bbd8a75dc4d0281370f49ebb161a2c52e5145372ef4fbbb6e71271",
+    "clean/normal_04.png": "de134d2334c5e4b7ab8076c77d7d5aac217d79eb127c230e8f7e4882163720dc",
+    "clean/noise_03.png": "b017a43e81fc49dcc0ec60b7dc64c522a1cf74f0367697d48f8faf404fda0a2d",
+    "clean/normal_01.png": "96429bf13525c7719a95cfc41a1a295df826fceea0c75b822a68a31bd200f65c",
+    "clean/glare_01.png": "a5f4be4e5fd024ab954057b599e979175ddf955bda1130f799b169c1ab563cbe",
+    "clean/lowlight_04.png": "bc87c056dc51f8e4cb8a1fe2e1b537ad33b6c0373793f41640ea0bb3ffedf32e",
+    "clean/glare_02.png": "cfc87ff34f2e1c463f1fd7e40139fd8ebc7a7f19fdbd1e06bc2b1ee5cf8e8f8d",
+    "clean/glare_03.png": "068ca3ecddcc2b8d483e4350ebd5b7804156b1aef0596596332eb7cd9a3afa28",
+    "clean/shadow_01.png": "4fb3a7de874c0d900938ec8c4a4406f7d81db9f3b9ad6c21bcc6a50237ec5c3d",
+    "clean/normal_05.png": "52a5d0d85791c7ced7db3959d023056ac5a8b2abbe9617085dc8044accce56ef",
+    "clean/gradient_01.png": "7ba7ad13cc434683a28106bb9181429b6b99c44591c545ada2eaaf8f76eab029",
+    "clean/noise_01.png": "fc6bb0c77c311c7d4d6bb27dc710dd8e2f58a4ec6b3cace3aa2a16c2a4a04313",
+    "clean/shadow_03.png": "3cfe6e62142ab7ebc08624184993e21e32a5d0d6222aabbc0a7687fe56c0ea1c",
+    "clean/normal_02.png": "f87ec2d3e435185f1b1a4bd8696c16ae1b2e776a7d9a1eee76f7981fa48246fa",
+    "clean/glare_05.png": "82dfe05d28cc964b2864d68b466fd27c9543ebc1b5e0fc76dd605937b9b48241",
+    "clean/shadow_06.png": "9a656b4f0a7c471120647b598cdc8a596f7a4cdf47f09991aa2c5f752a40c2e9",
+    "clean/gradient_02.png": "89768cccfd81f23131a076ded3459722af31205caf26e28e578e8ea38c11366b",
+    "clean/lowlight_01.png": "3817d94aa044587a34c15ff317148c61f1969d26c14599eee094aaa0ebb89135",
+    "clean/lowlight_03.png": "74afac3efde3aa19360a85257857cdbd6ff6bb4651f88e297feadaab9a2c791c",
+    "clean/noise_02.png": "a50662ed3f7a7e5bad2e8631915bd149ca7a6095818ee2b43fafad34de2726fa",
+    "clean/shadow_04.png": "fbf93a5d4aa4fc9cefa33e19f882ec5c485297f952a41e50749ca8222aea5821",
+    "clean/normal_03.png": "148ec76cf27d11966f80a8f8a660caaf1844c4f3317342cbfab8ed8adb4d9849",
+    "clean/noise_04.png": "3646da8644f770860e8fdcb4a667b6f099b959a7aa74889ae0173e12cbc73af2",
+    "clean/lowlight_02.png": "d7df66928c0e5a04fe81d2431e88968e06abcddccb99cd6ce61b1eab07cfde2b",
+    "clean/shadow_02.png": "fa8ec484e189fe50ab87dc3375bc85eff7700b426a2dbc81d7c206521eb301d6",
+    "clean/gradient_04.png": "aca61dce09c538a789548782737ab2d675b3ddff338fcd3efecfb5e5eadc1fd3"
+  },
+  "decoder": {
+    "format": "Code128",
+    "try_rotate": false,
+    "try_downscale": false,
+    "try_invert": false,
+    "preprocessing": "none; identical decoder settings for all modes"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "python-barcode": "0.16.1",
+    "zxing-cpp": "3.1.1",
+    "pyserial": "3.5"
+  },
+  "clean_common_roi_checks": [
+    {
+      "image_id": "normal_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000001"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "normal_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000002"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "normal_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000003"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "normal_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000004"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "normal_05",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000005"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000006"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000007"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000008"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000009"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_05",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000010"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "shadow_06",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000011"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "lowlight_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000012"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "lowlight_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000013"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "lowlight_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000014"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "lowlight_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000015"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "lowlight_05",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000016"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "glare_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000017"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "glare_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000018"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "glare_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000019"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "glare_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000020"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "glare_05",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000021"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "gradient_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000022"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "gradient_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000023"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "gradient_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000024"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "gradient_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000025"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "gradient_05",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000026"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "noise_01",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000027"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "noise_02",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000028"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "noise_03",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000029"
+      ],
+      "exact_match": true
+    },
+    {
+      "image_id": "noise_04",
+      "decode_status": "correct",
+      "decoded_texts": [
+        "000026000030"
+      ],
+      "exact_match": true
+    }
+  ],
+  "clean_gate_pass": true,
+  "note": "All generated samples retained; clean gate failure aborts evaluation, no sample deletion"
+}
