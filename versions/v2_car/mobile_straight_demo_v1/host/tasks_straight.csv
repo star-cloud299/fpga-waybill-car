@@ -1,0 +1,3 @@
+task_id,station_id,barcode_text,description,enabled
+DEMO-001,1,000026000003,1号货物送往A转运区,1
+DEMO-002,2,000026000008,2号货物送往B转运区,1
