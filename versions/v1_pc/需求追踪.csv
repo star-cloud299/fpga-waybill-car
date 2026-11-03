@@ -1,0 +1,13 @@
+﻿编号,基础要求或扩展,状态与验收边界,代码或证据
+F01,UART图像闭环/CRC/错误恢复,已有正式RTL；本次回归覆盖7帧及20种恢复场景,official_v2; sim/tb_uart_recovery.sv
+F02,灰度/固定/3x3/15x15,正式基础模式1至4；软件、RTL及实板记录一致,integration_b_v1/rtl; host/common.py
+F03,30图、12调参/18测试、冻结参数,已保留，不重新选参,data/formal_v3; results/frozen_profile.json
+F04,实板与模型逐像素一致,原150帧+新增实拍15帧重新复核通过,results/foundation_formal_audit.json; results/foundation_photo_audit.json
+F05,单连接100帧,历史实板证据已复核；新增可运行脚本，未新连接硬件,official_v2/evidence/board_100frames_20261023; stability_100_frames.bat
+F06,资源/时序,保留对应原bit报告；本轮未新综合,official_v2/board_reports
+F07,资源优化对比,直接窗口基线与滑动统计等价仿真通过；Vivado资源收益待测,benchmark/compare.tcl
+F08,一像素每周期/最大256x128,未达到原目标；当前窗口约2周期/像素，实板192x96,profiles/foundation_contract.json
+F09,可复现,锁定依赖/统一菜单/自检/构建/哈希清单已提供；另一台Windows干净环境复现仍待执行,setup_environment.bat; foundation_menu.bat
+E01,模式5,保留为可选扩展，不冒充识别率高于模式4,host/gui.py; integration_b_v1/rtl
+E02,模式6/BIT1/重传,后续扩展；正式协议不支持，不标完成,docs/基础接口与扩展边界.md
+L01,LLM辅助优化,本轮真实设计决策与代码哈希记录；不生成虚构历史优化收益,engineering_decisions.json

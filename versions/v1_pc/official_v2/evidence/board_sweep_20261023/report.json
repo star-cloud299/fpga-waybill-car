@@ -1,0 +1,116 @@
+{
+  "source": "team_v1_20261022\\c_data\\20261022_213852_792873\\request.bin",
+  "note": "192x96 is a functional resize, not a labeled barcode sample",
+  "frames": [
+    {
+      "size": "64x64",
+      "mode": 1,
+      "sequence": 201,
+      "status": 0,
+      "output_pixels": 4096,
+      "mismatches": 0,
+      "processing_cycles": 8190,
+      "request_sha256": "7779a87ad0c2ee523bcfb1c439f2552388f4b1b6fc114d73fd6cedeed0b1ab65",
+      "response_sha256": "fe77db593b57d98df7f6b604832e7ed51296281dcd8612bde9211de00083bb66"
+    },
+    {
+      "size": "64x64",
+      "mode": 2,
+      "sequence": 202,
+      "status": 0,
+      "output_pixels": 4096,
+      "mismatches": 0,
+      "processing_cycles": 8190,
+      "request_sha256": "fdcfe0a5ad53986007b3c19cd4be3faac687e90f9b8e8e403b108924311c8580",
+      "response_sha256": "b87f76d8460970228788933bff3399286fa50ce9cd2869a043eaa216778d543a"
+    },
+    {
+      "size": "64x64",
+      "mode": 3,
+      "sequence": 203,
+      "status": 0,
+      "output_pixels": 3844,
+      "mismatches": 0,
+      "processing_cycles": 8192,
+      "request_sha256": "a115566db672720e750d59ea8a37882660897b06e940372b535f6bf2dc8f46a9",
+      "response_sha256": "dff6f89366466b158859c747984dd1ebf3eb60d20514a768d4cdd844ab32c755"
+    },
+    {
+      "size": "64x64",
+      "mode": 4,
+      "sequence": 204,
+      "status": 0,
+      "output_pixels": 2500,
+      "mismatches": 0,
+      "processing_cycles": 8192,
+      "request_sha256": "4d991b95709dfbd28425b900ec193edd2bd3e03447c48f1a52b690ff64154008",
+      "response_sha256": "723eab143ac6d6187190f899031db59c3f43e24282f6bb1781e88d4ec9ad5ef0"
+    },
+    {
+      "size": "64x64",
+      "mode": 5,
+      "sequence": 205,
+      "status": 0,
+      "output_pixels": 2500,
+      "mismatches": 0,
+      "processing_cycles": 8192,
+      "request_sha256": "77655fece53144a4cdd24abf5ae4bee73991a9ca5d98d4407e002f3298ea75fd",
+      "response_sha256": "e8cbfae71a64d6f419c5fcd6e703e2a9f13067b9de2afc75fc0daac71e2706a6"
+    },
+    {
+      "size": "192x96",
+      "mode": 1,
+      "sequence": 211,
+      "status": 0,
+      "output_pixels": 18432,
+      "mismatches": 0,
+      "processing_cycles": 36862,
+      "request_sha256": "cbb3637edd502001607e4bd4a3aa62a754c08096f7079362f81bd69fe94e9abb",
+      "response_sha256": "5d2320b0526c14f20cb256861a83972780fb976e28ff947fda324a2c6a687bda"
+    },
+    {
+      "size": "192x96",
+      "mode": 2,
+      "sequence": 212,
+      "status": 0,
+      "output_pixels": 18432,
+      "mismatches": 0,
+      "processing_cycles": 36862,
+      "request_sha256": "fa159d2481473f6b01257dff095110c165c6fc3888735fdbc06d75b34c7aa8b5",
+      "response_sha256": "c7353266bbc579a59b01874ae2adec87ea25b7b7c98a74864df39026fd7504fe"
+    },
+    {
+      "size": "192x96",
+      "mode": 3,
+      "sequence": 213,
+      "status": 0,
+      "output_pixels": 17860,
+      "mismatches": 0,
+      "processing_cycles": 36864,
+      "request_sha256": "43f18e13772cad3ac7bf9f5c96ef263c4eee7ab63e3c653352f5d1e0352db01b",
+      "response_sha256": "73da47f1728f0b30c76dbc4f5c67a3e9ba1e48eada8e63fc3c0d71146a8aa075"
+    },
+    {
+      "size": "192x96",
+      "mode": 4,
+      "sequence": 214,
+      "status": 0,
+      "output_pixels": 14596,
+      "mismatches": 0,
+      "processing_cycles": 36864,
+      "request_sha256": "7f5a224e2209a6a92d24b91f1a7e31771a3d22a6e3631bb799d732dc960c9594",
+      "response_sha256": "7117dcc56809616c66d073b903de8311f6632f3592c2c0d42c0a08612b9a8931"
+    },
+    {
+      "size": "192x96",
+      "mode": 5,
+      "sequence": 215,
+      "status": 0,
+      "output_pixels": 14596,
+      "mismatches": 0,
+      "processing_cycles": 36864,
+      "request_sha256": "13f4f5c67272c237abbb11094773b60fd2f00bfd3d68137f92cfe8241db60ebd",
+      "response_sha256": "50b9743dec598ee9742825630799ddb4d703057e6abfa6e651e7656b3371b7c8"
+    }
+  ]
+}

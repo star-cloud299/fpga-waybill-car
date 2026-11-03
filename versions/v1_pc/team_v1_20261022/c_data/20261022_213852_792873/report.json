@@ -1,0 +1,9 @@
+{
+  "mode": "prepare_only",
+  "width": 64,
+  "height": 64,
+  "bias": 6,
+  "baud": 115200,
+  "request_bytes": 8201,
+  "status": "PREPARED"
+}

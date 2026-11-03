@@ -1,0 +1,50 @@
+[
+  {
+    "test": "bad_crc",
+    "status": 3,
+    "sequence": 301,
+    "payload_bytes": 0
+  },
+  {
+    "test": "recover_crc",
+    "status": 0,
+    "sequence": 301,
+    "payload_bytes": 196
+  },
+  {
+    "test": "bad_mode",
+    "status": 1,
+    "sequence": 301,
+    "payload_bytes": 0
+  },
+  {
+    "test": "recover_mode",
+    "status": 0,
+    "sequence": 301,
+    "payload_bytes": 196
+  },
+  {
+    "test": "bad_length",
+    "status": 2,
+    "sequence": 301,
+    "payload_bytes": 0
+  },
+  {
+    "test": "recover_length",
+    "status": 0,
+    "sequence": 301,
+    "payload_bytes": 196
+  },
+  {
+    "test": "byte_gap_timeout",
+    "status": 4,
+    "sequence": 301,
+    "payload_bytes": 0
+  },
+  {
+    "test": "recover_timeout",
+    "status": 0,
+    "sequence": 301,
+    "payload_bytes": 196
+  }
+]

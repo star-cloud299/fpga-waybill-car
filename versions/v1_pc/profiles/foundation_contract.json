@@ -1,0 +1,56 @@
+{
+  "release": "foundation-v5",
+  "board": "AX7035B XC7A35T-2FGG484",
+  "clock_hz": 50000000,
+  "foundation_modes": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "default_mode": 4,
+  "optional_mode": 5,
+  "formal_uart_modes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "wire_protocol": {
+    "request_magic": "A6 6A",
+    "response_magic": "6A A6",
+    "version": 2,
+    "encoding": "RAW8",
+    "baud": 115200,
+    "format": "8N1",
+    "crc": "CRC16-CCITT-FALSE",
+    "rgb565_byte_order": "high-byte-first"
+  },
+  "verified_board_limit": [
+    192,
+    96
+  ],
+  "kernel_simulation_limit": [
+    256,
+    128
+  ],
+  "input_handshake": "ready/valid; window core accepts roughly one pixel per two clocks",
+  "optional_extensions": [
+    "mode5 local contrast bias",
+    "PC decoder-assisted ROI"
+  ],
+  "not_in_formal_uart": [
+    "mode6 margin/uncertainty",
+    "BIT1",
+    "retransmission",
+    "RLE"
+  ],
+  "known_original_plan_gaps": [
+    "256x128 board support not accepted",
+    "original one-pixel-per-clock goal not met",
+    "no new Vivado build in this environment",
+    "new component resource comparison still requires Vivado"
+  ],
+  "bit_sha256": "fc794482f76bbf222b8e4ac96462d4332a196e6381af522d0f9539fc0f239488"
+}

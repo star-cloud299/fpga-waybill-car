@@ -1,0 +1,2 @@
+# Optional. Core file input and board transfer do not require a camera library.
+opencv-python>=4.8,<5

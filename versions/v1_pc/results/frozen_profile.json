@@ -1,0 +1,2380 @@
+{
+  "schema": "single-pc-profile-v3",
+  "selection_split": "tuning",
+  "tuning_image_ids": [
+    "normal_01",
+    "normal_02",
+    "shadow_01",
+    "shadow_02",
+    "lowlight_01",
+    "lowlight_02",
+    "glare_01",
+    "glare_02",
+    "gradient_01",
+    "gradient_02",
+    "noise_01",
+    "noise_02"
+  ],
+  "test_image_ids_used_for_selection": [],
+  "tie_rule": "maximize exact decoded texts; then lowest predeclared candidate rank (defaults first)",
+  "candidate_grid": {
+    "2": [
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 64,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 96,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 160,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 192,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      }
+    ],
+    "3": [
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 6,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 0,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 18,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 24,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      }
+    ],
+    "4": [
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 6,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 0,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 18,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 24,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      }
+    ],
+    "5": [
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 12,
+        "cmid": 12,
+        "cedge": 12
+      },
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 12,
+        "cmid": 8,
+        "cedge": 4
+      },
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 24,
+        "cmid": 16,
+        "cedge": 8
+      },
+      {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 16,
+        "t2": 64,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      }
+    ]
+  },
+  "selected_parameters": {
+    "2": {
+      "threshold": 128,
+      "bias": 12,
+      "t1": 24,
+      "t2": 80,
+      "cflat": 18,
+      "cmid": 12,
+      "cedge": 6
+    },
+    "3": {
+      "threshold": 128,
+      "bias": 6,
+      "t1": 24,
+      "t2": 80,
+      "cflat": 18,
+      "cmid": 12,
+      "cedge": 6
+    },
+    "4": {
+      "threshold": 128,
+      "bias": 12,
+      "t1": 24,
+      "t2": 80,
+      "cflat": 18,
+      "cmid": 12,
+      "cedge": 6
+    },
+    "5": {
+      "threshold": 128,
+      "bias": 12,
+      "t1": 24,
+      "t2": 80,
+      "cflat": 18,
+      "cmid": 12,
+      "cedge": 6
+    }
+  },
+  "provisional_default_mode": 4,
+  "default_requires_board_confirmation": true,
+  "dataset_lock_sha256": "848a4c4fa940a126ac64ca59dc7656b72e2ceafd34d5dc082e067d794c6aff05",
+  "manifest_sha256": "82f76e2fb9aa0aaaf7677e200e9083ee759c44616ee71f06deea69ef55e1f72f",
+  "source_sha256": {
+    "host/common.py": "9425d4c04caec1ec04b6022e9877e08893de5611c3cb65545ba6bb1ca9596744",
+    "host/dataset.py": "f1789c817be38c61034c6c6308e2cd23e0e08e341db5d8d69cee6cae538c5816",
+    "host/experiment.py": "a31c8d1d37b359c386b4b1ea03c66481758fdb94fbdb53e02123a3e787e9e4e4",
+    "official_v2/protocol.py": "23defe3366a866ab47b85b0ab29489e90a9f59f716d9aae2c7ee3d9b89743937",
+    "host/runner.py": "34cd9a3bf0700daac17384a532f4a966bb26e5a3c18c5fdc8c58f45340d82a59",
+    "integration_b_v1/tools/golden.py": "11a736a2a6b695b83b87431d9a3457707d7726db98e53ce021c73dc944bc781d"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "python-barcode": "0.16.1",
+    "zxing-cpp": "3.1.1",
+    "pyserial": "3.5"
+  },
+  "decoder": {
+    "format": "Code128",
+    "try_rotate": false,
+    "try_downscale": false,
+    "try_invert": false,
+    "preprocessing": "none; identical decoder settings for all modes"
+  },
+  "search_results": [
+    {
+      "mode": 2,
+      "candidate_rank": 0,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 6,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "candidate_rank": 1,
+      "parameters": {
+        "threshold": 64,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 6,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "candidate_rank": 2,
+      "parameters": {
+        "threshold": 96,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 4,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "candidate_rank": 3,
+      "parameters": {
+        "threshold": 160,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 6,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 2,
+      "candidate_rank": 4,
+      "parameters": {
+        "threshold": 192,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 2,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "candidate_rank": 0,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 2,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "candidate_rank": 1,
+      "parameters": {
+        "threshold": 128,
+        "bias": 6,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 10,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "candidate_rank": 2,
+      "parameters": {
+        "threshold": 128,
+        "bias": 0,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 6,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "candidate_rank": 3,
+      "parameters": {
+        "threshold": 128,
+        "bias": 18,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 0,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        }
+      ]
+    },
+    {
+      "mode": 3,
+      "candidate_rank": 4,
+      "parameters": {
+        "threshold": 128,
+        "bias": 24,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 0,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "undecodable",
+          "decoded_texts": [],
+          "exact_match": false
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "candidate_rank": 0,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "candidate_rank": 1,
+      "parameters": {
+        "threshold": 128,
+        "bias": 6,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "candidate_rank": 2,
+      "parameters": {
+        "threshold": 128,
+        "bias": 0,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "candidate_rank": 3,
+      "parameters": {
+        "threshold": 128,
+        "bias": 18,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 4,
+      "candidate_rank": 4,
+      "parameters": {
+        "threshold": 128,
+        "bias": 24,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "candidate_rank": 0,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "candidate_rank": 1,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 12,
+        "cmid": 12,
+        "cedge": 12
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "candidate_rank": 2,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 12,
+        "cmid": 8,
+        "cedge": 4
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "candidate_rank": 3,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 24,
+        "t2": 80,
+        "cflat": 24,
+        "cmid": 16,
+        "cedge": 8
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    },
+    {
+      "mode": 5,
+      "candidate_rank": 4,
+      "parameters": {
+        "threshold": 128,
+        "bias": 12,
+        "t1": 16,
+        "t2": 64,
+        "cflat": 18,
+        "cmid": 12,
+        "cedge": 6
+      },
+      "correct": 12,
+      "total": 12,
+      "sample_results": [
+        {
+          "image_id": "normal_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000001"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "normal_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000002"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000006"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "shadow_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000007"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000012"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "lowlight_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000013"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000017"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "glare_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000018"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000022"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "gradient_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000023"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_01",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000027"
+          ],
+          "exact_match": true
+        },
+        {
+          "image_id": "noise_02",
+          "decode_status": "correct",
+          "decoded_texts": [
+            "000026000028"
+          ],
+          "exact_match": true
+        }
+      ]
+    }
+  ]
+}
